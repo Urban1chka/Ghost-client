@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lib\kiero\kiero.cpp">
+      <Filter>other\lib\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\buffer.c">
+      <Filter>other\lib\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\hook.c">
+      <Filter>other\lib\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\trampoline.c">
+      <Filter>other\lib\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\hde\hde32.c">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\hde\hde64.c">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Dissector.cpp">
+      <Filter>other\dissector</Filter>
+    </ClCompile>
+    <ClCompile Include="Getter.cpp">
+      <Filter>src\getter</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>other\math</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.cpp">
+      <Filter>src\hooks\methods\render</Filter>
+    </ClCompile>
+    <ClCompile Include="Present_hk.cpp">
+      <Filter>src\hooks\methods\render</Filter>
+    </ClCompile>
+    <ClCompile Include="GetModifiedAimConeDirection_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPunch_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DoAttack_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientInput_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateAmbient_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileUpdate_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="TryToMove_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DoHit_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="SendClientTick_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DoHitNotify_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DoMovement_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="server_side.cpp">
+      <Filter>src\engine\server_side</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>src\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateVelocity_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui.cpp">
+      <Filter>other\menu\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\web\web.cpp">
+      <Filter>other\menu\gui\web</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\ChildManager.cpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\ColorPickerManager.cpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\PopupManager.cpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\TabsManager.cpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\WidgetsManager.cpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\compbuilder\CompBuilder.cpp">
+      <Filter>other\menu\gui\combuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_demo.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_draw.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_freetype.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_impl_dx11.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_impl_win32.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_tables.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_widgets.cpp">
+      <Filter>other\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="maindll.cpp" />
+    <ClCompile Include="BodyLeanOffset_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="DoFirstPersonCamera_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="EyePositionForPlayer_hk.cpp">
+      <Filter>src\hooks\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="IconManager.cpp">
+      <Filter>src\getter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="other">
+      <UniqueIdentifier>{325cd916-e2cb-45eb-964f-27a1c71f9c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\dissector">
+      <UniqueIdentifier>{ca310442-ea9f-49e5-9c80-470b30a6420f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\math">
+      <UniqueIdentifier>{ed898ae8-07a1-499b-8912-995461372bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{91abb387-eb3b-4599-9298-ad94e625bebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\getter">
+      <UniqueIdentifier>{100e390c-a597-422b-a47d-878b6e79ccf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib">
+      <UniqueIdentifier>{ce5e97b9-f702-493a-a51e-e3bcb03a7ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\imgui">
+      <UniqueIdentifier>{e9115ebc-fecd-4994-9895-d57dbae9ddae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\kiero">
+      <UniqueIdentifier>{05bde84c-c88d-46b7-83b2-7487b01a1003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\kiero\minhook">
+      <UniqueIdentifier>{0a035e8a-57d5-4559-8e4f-5cda372e1094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\kiero\minhook\dll_resources">
+      <UniqueIdentifier>{92b1e799-9582-49e9-bc7d-1f8f3cc7557e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\kiero\minhook\include">
+      <UniqueIdentifier>{82a629e1-d5d2-4244-9dc8-27c16ab99d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\kiero\minhook\src">
+      <UniqueIdentifier>{1b2b21f8-4085-449d-a30a-eb88d88cb2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\kiero\minhook\src\hde">
+      <UniqueIdentifier>{3ee1b63f-7537-4f57-b800-648f0b7b03e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\lib\sounds">
+      <UniqueIdentifier>{481652fd-09fc-4642-be8d-10e4f24d58eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{e1788e15-5741-4efe-8d10-bdef8f82b095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\server_side">
+      <UniqueIdentifier>{5712921c-f283-4e16-8399-c5af710ce282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks">
+      <UniqueIdentifier>{177a300a-03df-44b0-b322-32d1a2daea61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\methods">
+      <UniqueIdentifier>{2be200de-445f-4ae1-ada1-0f9c9c363a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\methods\render">
+      <UniqueIdentifier>{1fad81f4-863b-4e6e-9277-29a86770c4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\features">
+      <UniqueIdentifier>{0fc63c53-d50d-4db5-b279-1bcad4d22997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu">
+      <UniqueIdentifier>{9165efdf-b319-46b8-93ec-6b8948a97d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui">
+      <UniqueIdentifier>{fdfbbab3-9bfc-453c-836b-cfb55030b657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\combuilder">
+      <UniqueIdentifier>{b0e0ef22-3ce0-4f09-bc6a-b0353be86ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\managers">
+      <UniqueIdentifier>{1d47f8d0-b63d-47dd-9cce-f0240d0481ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\web">
+      <UniqueIdentifier>{05fb6110-b046-400e-8985-941613105e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty">
+      <UniqueIdentifier>{dddf9a76-8ddf-4fc9-aec7-4beda678e209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\lib">
+      <UniqueIdentifier>{fc2bfb68-c7b4-453b-98fc-9b225f277212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\include">
+      <UniqueIdentifier>{a5a37a64-5405-4ec8-971e-a6f588662009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\include\nlohmann">
+      <UniqueIdentifier>{a7059645-3194-4bc7-b262-410971573786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\include\freetype">
+      <UniqueIdentifier>{bf020341-42de-4a3c-9f5b-66e3763e06f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\include\freetype\config">
+      <UniqueIdentifier>{60ac1431-7702-455f-8d23-8772aeead686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\include\freetype\internal">
+      <UniqueIdentifier>{cfbc5e8e-d339-4151-adad-a2434b2c5b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\menu\gui\thirdparty\include\freetype\internal\services">
+      <UniqueIdentifier>{ab5d7a81-9080-4c7c-b31a-2a94242ea10a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other\custom">
+      <UniqueIdentifier>{115eb712-8eeb-4aea-8788-7287548113fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp" />
+    <ClInclude Include="lib\kiero\kiero.h">
+      <Filter>other\lib\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\include\MinHook.h">
+      <Filter>other\lib\kiero\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\buffer.h">
+      <Filter>other\lib\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\trampoline.h">
+      <Filter>other\lib\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\hde32.h">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\hde64.h">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\pstdint.h">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\table32.h">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\table64.h">
+      <Filter>other\lib\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Dissector.hpp">
+      <Filter>other\dissector</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="System.hpp">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityEngine.hpp">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Getter.hpp">
+      <Filter>src\getter</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>other\math</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\sounds\click_sound.hpp">
+      <Filter>other\lib\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\sounds\fatality_sound.hpp">
+      <Filter>other\lib\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="server_side.hpp">
+      <Filter>src\engine\server_side</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>src\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\fonts.h">
+      <Filter>other\menu\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui.hpp">
+      <Filter>other\menu\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\unicodes.hpp">
+      <Filter>other\menu\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\web\web.hpp">
+      <Filter>other\menu\gui\web</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\ChildManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\ColorPickerManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\FontManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\ImageManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\NotifyManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\PopupManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\SearchManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\StyleManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\TabsManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\WidgetsManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\compbuilder\CompBuilder.hpp">
+      <Filter>other\menu\gui\combuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\animations.hpp">
+      <Filter>other\menu\gui\thirdparty\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\ft2build.h">
+      <Filter>other\menu\gui\thirdparty\include</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\freetype.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftadvanc.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbbox.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbdf.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbitmap.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbzip2.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftcache.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftchapters.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftcid.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftcolor.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftdriver.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fterrdef.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fterrors.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftfntfmt.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftgasp.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftglyph.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftgxval.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftgzip.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftimage.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftincrem.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlcdfil.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlist.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlogging.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlzw.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmac.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmm.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmodapi.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmoderr.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftotval.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftoutln.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftparams.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftpfr.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftrender.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsizes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsnames.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftstroke.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsynth.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsystem.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fttrigon.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fttypes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftwinfnt.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\otsvg.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\t1tables.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ttnameid.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\tttables.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\tttags.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftconfig.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftheader.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftmodule.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftoption.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftstdlib.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\integer-types.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\mac-support.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\public-macros.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\autohint.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\cffotypes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\cfftypes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\compiler-macros.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftcalc.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftdebug.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftdrv.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftgloadr.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\fthash.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftmemory.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftmmtypes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftobjs.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftpsprop.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftrfork.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftserv.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftstream.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\fttrace.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftvalid.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\psaux.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\pshints.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\sfnt.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\svginterface.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\t1types.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\tttypes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\wofftypes.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svbdf.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svcfftl.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svcid.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svfntfmt.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svgldict.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svgxval.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svkern.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svmetric.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svmm.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svotval.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpfr.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpostnm.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svprop.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpscmap.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpsinfo.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svsfnt.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svttcmap.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svtteng.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svttglyf.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svwinfnt.h">
+      <Filter>other\menu\gui\thirdparty\include\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\nlohmann\json.hpp">
+      <Filter>other\menu\gui\thirdparty\include\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\nlohmann\json_fwd.hpp">
+      <Filter>other\menu\gui\thirdparty\include\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imconfig.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_freetype.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_dx11.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_win32.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_internal.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_rectpack.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_textedit.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_truetype.h">
+      <Filter>other\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_render.hpp">
+      <Filter>other\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="custommodel.hpp">
+      <Filter>src\hooks\features</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\LangManager.hpp">
+      <Filter>other\menu\gui\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator.hpp">
+      <Filter>src\hooks\features</Filter>
+    </ClInclude>
+    <ClInclude Include="IconManager.hpp">
+      <Filter>src\getter</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.hpp">
+      <Filter>src\hooks\features</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>other\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>other\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>other\custom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\kiero\minhook\dll_resources\MinHook.def">
+      <Filter>other\lib\kiero\minhook\dll_resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lib\kiero\minhook\dll_resources\MinHook.rc">
+      <Filter>other\lib\kiero\minhook\dll_resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="gui\thirdparty\lib\freetype.lib">
+      <Filter>other\menu\gui\thirdparty\lib</Filter>
+    </Library>
+    <Library Include="gui\thirdparty\lib\freetype64.lib">
+      <Filter>other\menu\gui\thirdparty\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
